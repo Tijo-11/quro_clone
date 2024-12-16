@@ -1,0 +1,338 @@
+.headBar{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.heading{
+    height: 60px;
+    color:#196e80;
+    text-align: center;
+    background-color: white;
+}
+.logo{
+    height:128px;
+    width: 128px;
+    margin:auto;
+    align-items: center;
+}
+.caption{
+    height:46px;
+    color:#2ab3cf;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
+#links {
+    text-align: center;
+}
+#links a{
+    color: #196e80;
+    text-decoration: none;
+}
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    height:700px;
+    background-image: url("Assets/image1.jpg");
+    background-size: cover;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.heroLive{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.explore{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+.heroSection button{
+    width:200px;
+    height:60px;
+    background-color: white;
+    border:none;
+    border-radius: 4px;
+    color: #2ab3cf;
+    font-size: 1.2rem;
+}
+
+
+
+.hero2{
+    height:640px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero2Image{
+    height:550px;
+    width:50%;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.hero2 button{
+    width:200px;
+    height:60px;
+    background-color: #196e80;
+    border:none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+}
+.hero2caption{
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    width: 40%;
+
+}
+.hero2caption h2{
+    color: #196e80;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+.hero2caption p{
+    font-size: 25px;
+    color: #196e80;
+}
+.hero3{
+    height:550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #196e80;
+}
+.hero3Image{
+    height:550px;
+    width:50%;
+}
+.hero3caption{
+    height:550px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.hero3caption h2{
+    color: white;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+.hero3caption p{
+    height:80px;
+    width: 95%;
+    font-size: 20px;
+    color: white;
+}
+/**Styling 4th Hero Section**/
+
+.hero4{
+    height:550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.hero4Image{
+    margin:50px;
+    height:500px;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+.hero4caption{
+    margin:60px;
+    height:490px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.hero4caption h2{
+    color: #196e80;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.hero4caption p{
+    height:80px;
+    width: 95%;
+    font-size: 20px;
+    color: #196e80;
+    margin-top: 5px;
+}
+.hero4 button{
+    width:200px;
+    height:60px;
+    background-color: #196e80;
+    border:none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.image{
+    height:170px;
+    width:260px;
+}
+/** Styling Peoples Opinion Section**/
+.comments{
+    height:400px;
+    display: flex;
+    justify-content: space-between;
+}
+.commentsImage{
+    width:50%;
+    background-image: url("./Assets/image5.jpg");
+    background-size: cover;
+}
+.commentsText{
+    height:400px;
+    width: 50%;
+    background-color: #196e80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.commentsText h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.commentsText p{
+    height:80px;
+    width: 95%;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/**Styling Deals and Offers**/
+.deals{
+    height:800;
+}
+.deals h2{
+    height:40px; 
+    margin-top:40px;
+    font-size: 35px;
+    margin-bottom:5px;
+}
+.deals h3{
+    height:40px;
+    margin-bottom: 5px;
+}
+.offers{
+    margin-left:40px;
+    margin-top: 30px;
+    height:600px;
+    display:flex;
+    justify-content: space-around;
+}
+.singapore{
+    margin-top: 30px;
+    width:27%;
+}
+.malaysia{
+    margin-top: 30px;
+    width:27%;
+}
+.Thailand{
+    margin-top: 30px;
+    width:27%
+}
+.offers h3{
+    color: #196e80;
+    font-size: 25px;
+}
+.offers p{
+    color: #196e80;
+    font-size: 22px;
+}
+.anniversary{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width:100%;
+    background-image:url(./Assets/girl.jpg);
+    background-size: cover;
+    align-items: center;
+    jus
+}
+.anniversary h3{
+    color: white;
+    font-size: 30px;
+}
+.anniversary h2{
+    color: white;
+    font-size: 50px;
+}
+.anniversary p{
+    color: white;
+    font-size: 25px;
+}
+.anniversary button{
+    width:200px;
+    height:60px;
+    background-color: white;
+    border:none;
+    border-radius: 8px;
+    color: #2ab3cf;
+    font-size: 1.2rem;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #196e80;
+    height:400px;
+    justify-content: space-evenly;
+    margin:0;
+}
+.help{
+    width:28%;
+}
+.help h2{
+    color: white;
+    font-size: 25px;
+}
+.help p{
+    color: white;
+    font-size: 20px;
+}
+.contact{
+    width:28%;
+}
+.contact p{
+    color: white;
+    font-size: 20px;
+}
+.contact h2{
+    color: white;
+    font-size: 25px;
+}
+.social{
+    width:28%;
+}
+.social p{
+    color: white;
+    font-size: 20px;
+}
+.social h2{
+    color: white;
+    font-size: 25px;
+}
+.copyright{
+    display:flex;
+    height: 40px;
+    background-color: #196e80;
+    align-items: center;
+    justify-content: center;
+}
+
